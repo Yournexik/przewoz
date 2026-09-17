@@ -1,0 +1,25 @@
+<?php
+$colors = ["Rozowy","Czerwony","Turkusowy"];
+echo $colors[0];
+
+foreach ($colors as $color) {
+    echo $color . "/";
+}
+?>
+
+<?php
+$product = [
+    'name' =>'ojoj',
+    'price' =>'10',
+    'in stock' =>'150'
+];
+echo $product['name'];
+foreach ($product as $key => $value) {
+    echo "$key: $value\n";
+}
+?>
+
+<?php
+$numbers = [1,2,3,4];
+echo $numbers[0];
+array_push("1");
